@@ -1,3 +1,7 @@
-let a = [20, 30, 40];
-let b = [10,...a, 50];
-console.log(b);
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Global from './components/Global';
+
+ReactDOM.render(
+    <Global />, document.getElementById('root')
+);
