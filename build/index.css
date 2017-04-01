@@ -1,7 +1,8 @@
 .Global{
     text-align: center;
     padding: 10px;
-
+    background-color: #f3f3f3;
+    
 }
 .global-logo{
      margin: 5% 0 3% 0;
@@ -25,6 +26,9 @@
     cursor: pointer;
     position: relative;
 }
+.book-gallery{
+    background-color:#f3f3f3; 
+}
 .book-img {
     width: 220px;
     height: 220px;
@@ -43,4 +47,12 @@
     position: absolute;
     bottom: 0;
     padding: 10px;  
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #C8C8C8;
+    color: #A0A0A0;
+    margin: 28% 0 0 0;
+    
 }
